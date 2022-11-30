@@ -1,0 +1,4 @@
+protoc-21.9-osx-aarch_64*
+myvenv*
+__pycache__*
+.DS_Store
