@@ -19,7 +19,7 @@ message Person {
     optional PhoneType type = 2;
   }
 
-  repeated PhoneNumber phones = 4;
+  repeated string phones = 4;
 }
 
 message AddressBook {

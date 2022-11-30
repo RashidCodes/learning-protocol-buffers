@@ -6,6 +6,7 @@ import sys
 
 # Iterates through all people in the AddressBook and prints info about them 
 def ListPeople(address_book):
+    
     for person in address_book.people:
         print(f"Person ID: {person.id}")
         print(f"    Name: {person.name}")
